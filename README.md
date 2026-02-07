@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 What We Built
+##  What We Built
 
 DriftGuard detects when AI models silently fail **WITHOUT needing ground truth labels**.
 
@@ -27,7 +27,7 @@ Monitor model behavior using:
 
 ---
 
-## 🚀 Quick Start (3 Commands)
+##  Quick Start (3 Commands)
 
 ```bash
 # 1. Install dependencies
@@ -45,7 +45,7 @@ cd ../backend && python api.py
 
 ---
 
-## 📊 Demo Scenarios
+##  Demo Scenarios
 
 ### Scenario A: Economic Downturn
 ```
@@ -67,7 +67,7 @@ DriftGuard detects: Subpopulation drift
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Production Model → DriftGuard Engine → Alert System → Dashboard
@@ -77,18 +77,18 @@ Production Model → DriftGuard Engine → Alert System → Dashboard
 
 ---
 
-## 🎓 Judge Feedback Addressed
+##  Judge Feedback Addressed
 
 | Feedback | Implementation |
 |----------|----------------|
-| ✅ Rolling baseline strategy | 7-day window, updates daily |
-| ✅ Confidence proxies | For non-probabilistic models |
-| ✅ Low-noise alerts | 3-strike rule before alerting |
-| ✅ Subpopulation tracking | Detects bias in specific groups |
+|  Rolling baseline strategy | 7-day window, updates daily |
+|  Confidence proxies | For non-probabilistic models |
+|  Low-noise alerts | 3-strike rule before alerting |
+|  Subpopulation tracking | Detects bias in specific groups |
 
 ---
 
-## 📈 Key Features
+##  Key Features
 
 - **Real-time monitoring** - Detects drift as it happens
 - **Interpretable alerts** - Explains WHAT drifted, BY HOW MUCH
@@ -97,7 +97,7 @@ Production Model → DriftGuard Engine → Alert System → Dashboard
 
 ---
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Drift Detection Algorithms
 
@@ -123,7 +123,7 @@ D = max|F_baseline(x) - F_current(x)|
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 - Requires minimum 30 samples for reliable detection
 - Rolling baseline reset may miss gradual drift
@@ -132,7 +132,7 @@ D = max|F_baseline(x) - F_current(x)|
 
 ---
 
-## 📚 Code Structure
+##  Code Structure
 
 ```
 driftguard/
